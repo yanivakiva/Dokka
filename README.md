@@ -19,10 +19,10 @@ if the uuid does not exist in the database the dictionary will be empty.
 
 How to install
 ==============
-clone the reopsitory into your directory.
-cd into the server directory and run the following command in the terminal
-export FLASK_APP=REST.py
-to run the flask framework run flask run in the terminal.
+clone the reopsitory into your directory. <br></br>
+cd into the server directory and run the following command in the terminal: <br></br>
+export FLASK_APP=REST.py <br></br>
+to run the flask framework run flask run in the terminal. <br></br>
 
 How to use
 ============
