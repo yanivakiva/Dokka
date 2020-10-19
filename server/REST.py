@@ -3,6 +3,7 @@ import sys
 import ast
 import pandas as pd
 from hashlib import md5
+sys.path.append(f'{os.getcwd()}/../')
 from __init__ import app
 from werkzeug.utils import secure_filename
 from geo_tools.geo_tools import Geotools
