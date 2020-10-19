@@ -1,4 +1,4 @@
-from dokka.server.models import Results
+from server.models import Results
 from sqlalchemy import create_engine
 from sqlalchemy.pool import SingletonThreadPool
 from sqlalchemy.orm import sessionmaker

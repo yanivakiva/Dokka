@@ -1,4 +1,4 @@
-from dokka import app
+from __init__ import app
 from flask_sqlalchemy import SQLAlchemy
 
 db = SQLAlchemy(app)

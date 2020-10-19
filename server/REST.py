@@ -3,11 +3,10 @@ import sys
 import ast
 import pandas as pd
 from hashlib import md5
-from dokka import app
-sys.path.append(f'{os.getcwd()}/../../')
+from __init__ import app
 from werkzeug.utils import secure_filename
-from dokka.geo_tools.geo_tools import Geotools
-from dokka.server.pipelines import ResultsPipelines
+from geo_tools.geo_tools import Geotools
+from server.pipelines import ResultsPipelines
 from flask import jsonify, request, flash, redirect
 
 ALLOWED_EXTENSIONS = {'csv'}
@@ -90,4 +89,4 @@ def get_result():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
